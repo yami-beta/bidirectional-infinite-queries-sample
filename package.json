@@ -1,5 +1,5 @@
 {
-  "name": "swr-bidirectional-infinite-queries-sample",
+  "name": "bidirectional-infinite-queries-sample",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "lint:prettier": "prettier --check ."
+    "lint:prettier": "prettier --check .",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@types/node": "20.4.6",
@@ -19,6 +20,7 @@
     "next": "13.4.12",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "swr": "^2.2.0",
     "typescript": "5.1.6"
   },
   "devDependencies": {

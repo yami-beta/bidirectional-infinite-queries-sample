@@ -1,7 +1,17 @@
-export default function Home() {
+import Link from "next/link";
+
+type PageProps = {};
+
+function Page({}: PageProps) {
   return (
-    <main>
-      <h1>Home</h1>
-    </main>
+    <div>
+      <ul>
+        <li>
+          <Link href="/infinite">useSWRInfiniteを利用したサンプル</Link>
+        </li>
+      </ul>
+    </div>
   );
 }
+
+export default Page;
