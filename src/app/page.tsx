@@ -9,6 +9,9 @@ function Page({}: PageProps) {
         <li>
           <Link href="/infinite">useSWRInfiniteを利用したサンプル</Link>
         </li>
+        <li>
+          <Link href="/react-query">useInfiniteQueryを利用したサンプル</Link>
+        </li>
       </ul>
     </div>
   );
