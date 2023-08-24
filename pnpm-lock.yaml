@@ -26,6 +26,9 @@ dependencies:
   eslint-config-next:
     specifier: 13.4.12
     version: 13.4.12(eslint@8.46.0)(typescript@5.1.6)
+  eventmit:
+    specifier: ^2.0.4
+    version: 2.0.4
   next:
     specifier: 13.4.12
     version: 13.4.12(react-dom@18.2.0)(react@18.2.0)
@@ -1059,6 +1062,10 @@ packages:
   /esutils@2.0.3:
     resolution: {integrity: sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==}
     engines: {node: '>=0.10.0'}
+
+  /eventmit@2.0.4:
+    resolution: {integrity: sha512-ajC4xDTMb8ydU8+VCwd/NLZzjl3piZXguctx+4vcbieC+aRHhHHoTG5vlwndebPyejAoBfUDTs3Ykax4xRTgXw==}
+    dev: false
 
   /execa@5.1.1:
     resolution: {integrity: sha512-8uSpZZocAZRBAPIEINJj3Lo9HyGitllczc27Eh5YYojjMFMn8yHMDMaUHE2Jqfq05D/wucwI4JGURyXt1vchyg==}
