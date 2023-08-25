@@ -46,6 +46,7 @@ export const useMessages = () => {
 
     return () => {
       nextEvent.offAll();
+      prevEvent.offAll();
     };
   });
 
